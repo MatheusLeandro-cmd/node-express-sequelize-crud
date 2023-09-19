@@ -1,15 +1,15 @@
 module.exports = (sequelize, Sequelize) => {
-    const Item = sequelize.define("items", {
+    const Factory = sequelize.define("items", {
       name: {
         type: Sequelize.STRING
       },
       description: {
         type: Sequelize.STRING
       },
-      quantity: {
+      adress: {
         type: Sequelize.INTEGER
       },
-      isFlammable: {
+      phone_number: {
         type: Sequelize.BOOLEAN
       }
     });
